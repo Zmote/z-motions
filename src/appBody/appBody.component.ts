@@ -5,7 +5,7 @@
 import {Component} from '@angular/core';
 import {SlideShowComponent} from '../slideshow/slideshow.component';
 @Component({
-  selector: 'app-body',
+  selector: 'app-body [class="container-fluid appBody"]',
   templateUrl: './appBody.component.html',
   viewProviders: [SlideShowComponent],
   styleUrls: ['./appBody.component.css']
