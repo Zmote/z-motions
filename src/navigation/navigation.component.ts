@@ -10,5 +10,6 @@ import {Component} from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavComponent {
-  Action = 'Zafer is Awesome';
+
 }
+

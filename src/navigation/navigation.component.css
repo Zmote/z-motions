@@ -3,12 +3,23 @@
   height:3vh;
 }
 
-.nav-link{
-  color:#f0f0f0;
-}
-
 .nav-link:hover{
   color:white;
   font-weight:bold;
   transform: scale(1.2);
+}
+
+@media (max-width: 768px){
+  .nav-link:hover{
+    font-size:1.2em;
+    transform: none;
+  }
+}
+
+.nav-link{
+  color: #f0f0f0 !important;
+}
+
+.fa-bars{
+  color:white;
 }
