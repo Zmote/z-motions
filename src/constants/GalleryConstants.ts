@@ -3,7 +3,7 @@
  */
 export class GalleryConstants {
   static readonly threeDImageArray = [
-    '../assets/img/3dgallery/architecture_exercises_001_by_zmote-d5px5i6.jpg',
+    '../assets/img/3dgallery/architecture.jpg',
     '../assets/img/3dgallery/cargo_ship_by_zmote-d6p1ugd.jpg',
     '../assets/img/3dgallery/caylarrrrr_by_z_mote-d499mx4.png',
     '../assets/img/3dgallery/city_of_winterburg__final_layout_by_zmote-d6pzdzu.jpg',

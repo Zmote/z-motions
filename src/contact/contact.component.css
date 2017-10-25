@@ -1,0 +1,13 @@
+main{
+  margin-top:3rem;
+}
+
+#contact-form{
+  width:50%;
+}
+
+@media (max-width:576px){
+  #contact-form{
+    width:80%;
+  }
+}
