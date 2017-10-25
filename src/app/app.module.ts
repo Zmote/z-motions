@@ -13,7 +13,10 @@ import {AboutComponent} from '../about/about.component';
 import {ContactComponent} from '../contact/contact.component';
 import {CodeComponent} from '../code/code.component';
 
-// TODO: extract into own structures
+// TODO: extract imageArrays into own structures and include per import
+// TODO: add go to next/previous image feature in modal view
+// TODO: fill out home page cards
+// TODO: Setup Code, About and Contact components
 const threeDImageArray = [
   '../assets/img/3dgallery/architecture_exercises_001_by_zmote-d5px5i6.jpg',
   '../assets/img/3dgallery/cargo_ship_by_zmote-d6p1ugd.jpg',
