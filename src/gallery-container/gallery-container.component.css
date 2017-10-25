@@ -1,0 +1,48 @@
+.card{
+  padding:1rem;
+}
+
+.thumbs{
+  margin:1rem;
+}
+
+.thumbs > img{
+  overflow:hidden;
+  height:100px;
+  width:auto;
+}
+
+img{
+  margin-bottom:1rem;
+}
+
+.card:hover{
+  color:white;
+  background-color:#333333;
+}
+
+#exampleModalLong{
+  padding:2rem;
+  /*background-color:rgba(0,0,0,0.7);*/
+  margin:0 auto;
+}
+
+#exampleModalLong img{
+  width:100%;
+  overflow: scroll;
+  box-shadow: 0 100px 450px black;
+  margin:auto 0 !important;
+}
+
+#exampleModalLong, .modal-dialog, .modal-content, .modal-body{
+  width:100%;
+  max-width: 100%;
+}
+
+.closeButton > span{
+  color:white;
+}
+
+.modal-body{
+  padding:0;
+}

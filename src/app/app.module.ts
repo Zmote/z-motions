@@ -4,14 +4,15 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {NavComponent} from '../navigation/navigation.component';
 import {FooterComponent} from '../footer/footer.component';
-import {AppBodyComponent} from '../appBody/appBody.component';
+import {AppHomeComponent} from '../appHome/appHome.component';
 import {SlideShowComponent} from '../slideshow/slideshow.component';
 import {RouterModule, Routes} from '@angular/router';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {InfoCardComponent} from '../infocards/infocards.component';
+import {GalleryComponent} from '../gallery-container/gallery-container.component';
 
 const appRoutes: Routes = [
-  {path: '3d', component: SlideShowComponent},
-  {path: '', component: AppBodyComponent}
+  {path: '3d', component: GalleryComponent},
+  {path: '', component: AppHomeComponent}
 ];
 
 @NgModule({
@@ -19,16 +20,16 @@ const appRoutes: Routes = [
     AppComponent,
     NavComponent,
     FooterComponent,
-    AppBodyComponent,
-    SlideShowComponent
+    AppHomeComponent,
+    SlideShowComponent,
+    InfoCardComponent,
+    GalleryComponent
   ],
   imports: [
     RouterModule.forRoot(
-      appRoutes,
-      {enableTracing: true}
+      appRoutes
     ),
-    BrowserModule,
-    BrowserAnimationsModule
+    BrowserModule
   ],
   exports: [RouterModule],
   providers: [],
