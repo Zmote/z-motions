@@ -9,6 +9,9 @@ import {SlideShowComponent} from '../slideshow/slideshow.component';
 import {RouterModule, Routes} from '@angular/router';
 import {InfoCardComponent} from '../infocards/infocards.component';
 import {GalleryComponent} from '../gallery-container/gallery-container.component';
+import {AboutComponent} from '../about/about.component';
+import {ContactComponent} from '../contact/contact.component';
+import {CodeComponent} from '../code/code.component';
 
 // TODO: extract into own structures
 const threeDImageArray = [
@@ -132,6 +135,9 @@ const appRoutes: Routes = [
       links: designImageArray
     }
   },
+  {path: 'contact', component: ContactComponent},
+  {path: 'code', component: CodeComponent},
+  {path: 'about', component: AboutComponent},
   {path: '', component: AppHomeComponent}
 ];
 
@@ -143,7 +149,10 @@ const appRoutes: Routes = [
     AppHomeComponent,
     SlideShowComponent,
     InfoCardComponent,
-    GalleryComponent
+    GalleryComponent,
+    AboutComponent,
+    ContactComponent,
+    CodeComponent
   ],
   imports: [
     RouterModule.forRoot(
