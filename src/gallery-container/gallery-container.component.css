@@ -14,6 +14,7 @@ main{
 }
 
 .card:hover{
+  cursor:pointer;
   filter: brightness(50%);
 }
 
@@ -27,11 +28,8 @@ main{
 #exampleModalLong{
   padding:0 !important;
   margin:0 !important;
+  cursor:pointer;
 }
-
-/*#exampleModalLong, .modal-dialog, .modal-content{*/
-  /*width:100%;*/
-/*}*/
 
 .modal-body{
   display:flex;
@@ -45,35 +43,6 @@ main{
   height:100%;
   margin:auto;
 }
-
-/*.modal-dialog{*/
-  /*margin:0;*/
-  /*height:100%;*/
-  /*max-width:none;*/
-  /*width:100%;*/
-/*}*/
-
-/*#exampleModalLong > .modal-dialog{*/
-  /*display:flex !important;*/
-  /*align-content: center;*/
-  /*justify-content: center;*/
-/*}*/
-
-/*.modal-body{*/
-  /*align-content: center;*/
-  /*flex:0 0;*/
-/*}*/
-
-@media (max-width: 576px){
-  /*.modal-body{*/
-    /*align-content: center;*/
-    /*flex:1 1;*/
-  /*}*/
-}
-
-/*.modal-body > img{*/
-  /*align-self: center;*/
-/*}*/
 
 .closeButton > span{
   color:white;

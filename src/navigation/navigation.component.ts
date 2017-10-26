@@ -3,6 +3,8 @@
  */
 
 import {Component} from '@angular/core';
+declare let $: any;
+declare let jQuery: any;
 
 @Component({
   selector: 'app-nav-main',
@@ -10,6 +12,5 @@ import {Component} from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavComponent {
-
 }
 
