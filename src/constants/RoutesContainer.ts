@@ -17,7 +17,7 @@ export class RoutesContainer {
       component: GalleryComponent,
       data: {
         title: '3D Gallery',
-        description: 'Here are some examples of my 3D Work',
+        description: 'Here are some examples of my 3D Work. Click on the images to see them in full.',
         links: GalleryConstants.threeDImageArray
       }
     },
@@ -26,7 +26,7 @@ export class RoutesContainer {
       component: GalleryComponent,
       data: {
         title: '2D Gallery',
-        description: 'Here are some examples of my 2D Work',
+        description: 'Here are some examples of my 2D Work. Click on the images to see them in full.',
         links: GalleryConstants.twoDImageArray
       }
     },
@@ -35,7 +35,7 @@ export class RoutesContainer {
       component: GalleryComponent,
       data: {
         title: 'Concept Gallery',
-        description: 'Here are some examples of my various conceptual works',
+        description: 'Here are some examples of my various conceptual works. Click on the images to see them in full.',
         links: GalleryConstants.conceptImageArray
       }
     },
@@ -44,7 +44,7 @@ export class RoutesContainer {
       component: GalleryComponent,
       data: {
         title: 'Design Gallery',
-        description: 'Here are some examples of my Design and Vector work',
+        description: 'Here are some examples of my Design and Vector work. Click on the images to see them in full.',
         links: GalleryConstants.designImageArray
       }
     },
