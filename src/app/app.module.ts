@@ -16,7 +16,7 @@ import {RoutesContainer} from '../constants/RoutesContainer';
 
 // TODO: add go to next/previous image feature in modal view
 // TODO: fill out home page cards
-// TODO: Setup Code, About and Contact components
+// TODO: introducte zoom feature for modal view on images?
 
 @NgModule({
   declarations: [

@@ -2,7 +2,7 @@ main{
   margin-top:2rem;
 }
 
-.col-md-4{
+.col-md-4, .col-md-3{
   padding:0;
   margin:0;
 }
@@ -21,43 +21,63 @@ main{
   width:auto;
   max-height:88vh;
   max-width: 100vw;
-  filter: drop-shadow(0 0 150px black);
+  margin:auto;
 }
 
-#exampleModalLong, .modal-dialog, .modal-content{
+#exampleModalLong{
+  padding:0 !important;
+  margin:0 !important;
+}
+
+/*#exampleModalLong, .modal-dialog, .modal-content{*/
+  /*width:100%;*/
+/*}*/
+
+.modal-body{
+  display:flex;
+  height:88vh;
   width:100%;
+  padding:0;
 }
 
 .modal-dialog{
-  margin:0;
   max-width:none;
-  width:100%;
+  height:100%;
+  margin:auto;
 }
 
-#exampleModalLong > .modal-dialog{
-  display:flex !important;
-  align-content: center;
-  justify-content: center;
-}
+/*.modal-dialog{*/
+  /*margin:0;*/
+  /*height:100%;*/
+  /*max-width:none;*/
+  /*width:100%;*/
+/*}*/
 
-.modal-body{
-  align-content: center;
-  flex:0 0;
-}
+/*#exampleModalLong > .modal-dialog{*/
+  /*display:flex !important;*/
+  /*align-content: center;*/
+  /*justify-content: center;*/
+/*}*/
+
+/*.modal-body{*/
+  /*align-content: center;*/
+  /*flex:0 0;*/
+/*}*/
 
 @media (max-width: 576px){
-  .modal-body{
-    align-content: center;
-    flex:1 1;
-  }
+  /*.modal-body{*/
+    /*align-content: center;*/
+    /*flex:1 1;*/
+  /*}*/
 }
 
-.modal-body > img{
-  align-self: center;
-}
+/*.modal-body > img{*/
+  /*align-self: center;*/
+/*}*/
 
 .closeButton > span{
   color:white;
+  z-index:1051;
 }
 
 .jumbotron{
