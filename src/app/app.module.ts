@@ -14,9 +14,7 @@ import {ContactComponent} from '../contact/contact.component';
 import {CodeComponent} from '../code/code.component';
 import {RoutesContainer} from '../constants/RoutesContainer';
 
-// TODO: add go to next/previous image feature in modal view
-// TODO: introducte zoom feature for modal view on images?
-
+// TODO: Adjust image sizes, make thumbnails for small images and load full size for modal
 @NgModule({
   declarations: [
     AppComponent,
