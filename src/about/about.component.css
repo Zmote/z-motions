@@ -2,16 +2,21 @@ main{
   margin-top:2rem;
 }
 
+.portrait-tool img{
+  height:80px;
+  padding:10px 0;
+}
+
 .portrait{
   height:150px;
   border-radius: 20rem 20rem;
 }
 .aboutSection{
-  padding:0 10vw 3rem 10vw;
+  padding:0 10vw 0 10vw;
 }
 
 @media (max-width: 576px){
   .aboutSection{
-    padding:0 5vw 4rem 5vw;
+    padding:0 5vw 3rem 5vw;
   }
 }
