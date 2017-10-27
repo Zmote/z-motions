@@ -2,62 +2,71 @@
   <section class="jumbotron text-center">
     <div class="container-fluid">
       <h1 class="jumbotron-heading">Contact</h1>
-      <p class="lead text-muted">You can contact me for work related inquiries with the form below.</p>
+      <p class="lead text-dark">Are you interested in my skills? Do you want to realize a project with me? If so, send
+        me an e-mail to
+        <a href="mailto:info@z-motions.ch" class="font-weight-bold">info@z-motions.ch</a>
+        and we can discuss the specifics.</p>
     </div>
     <a routerLink="/" routerLinkActive="true" class="btn btn-primary">Go to Home</a>
   </section>
-  <form id="contact-form" method="post" action="" role="form" class="mx-auto">
-    <div class="messages"></div>
-    <div class="controls">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="form_name">Firstname *</label>
-            <input id="form_name" type="text" name="name" class="form-control"
-                   placeholder="Please enter your firstname *" required="required"
-                   data-error="Firstname is required.">
-            <div class="help-block with-errors"></div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="form_lastname">Lastname *</label>
-            <input id="form_lastname" type="text" name="surname" class="form-control"
-                   placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-            <div class="help-block with-errors"></div>
-          </div>
+  <section class="container-fluid cards">
+    <div class="row mx-auto text-center">
+      <h2 class="col-md-12">What are my rates?</h2>
+      <p class="col-md-12">As my proficiency is different from subject to subject, I charge differently depending on the
+        project type. Below are some rates to give you an idea of how much I charge what kind of projects.
+        All rates are hourly rates. Keep in mind, these are only estimates.</p>
+    </div>
+    <hr>
+    <div class="row mx-auto">
+      <div class="card col-md-2">
+        <img class="card-img-top" src="../assets/img/symbols/design_symbol.png" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">3D</h4>
+          <p class="card-text">From Models, Props to Rigs and Scenes. For 3D Work, I charge:</p>
+          <h4>25$ per hour</h4>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="form_email">Email *</label>
-            <input id="form_email" type="email" name="email" class="form-control"
-                   placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-            <div class="help-block with-errors"></div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="form_phone">Phone</label>
-            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-            <div class="help-block with-errors"></div>
-          </div>
+      <div class="card col-md-2">
+        <img class="card-img-top" src="../assets/img/symbols/design_symbol.png" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">2D</h4>
+          <p class="card-text">From Landscape Artwork, Comics, Paintings and Illustrations. For 2D Work, I charge:</p>
+          <h4>20$ per hour</h4>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="form_message">Message *</label>
-            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4"
-                      required="required" data-error="Please,leave us a message."></textarea>
-            <div class="help-block with-errors"></div>
-          </div>
+      <div class="card col-md-2">
+        <img class="card-img-top" src="../assets/img/symbols/design_symbol.png" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Design</h4>
+          <p class="card-text">From Flyers, Logos, Brochures to Webelements; Magazine Designs, Business Cards and UI Designs. For Design Work, I charge:</p>
+          <h4>35$ per hour</h4>
         </div>
-        <div class="col-md-12 mb-5">
-          <input type="submit" class="btn btn-success btn-send" value="Send message">
+      </div>
+      <div class="card col-md-2">
+        <img class="card-img-top" src="../assets/img/symbols/design_symbol.png" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Concept</h4>
+          <p class="card-text">From Character Development, Scene Concepts to Vehicle Prototypes. For any kind of conceptual work I charge:</p>
+          <h4>20$ per hour</h4>
+        </div>
+      </div>
+      <div class="card col-md-2">
+        <img class="card-img-top" src="../assets/img/symbols/design_symbol_s.png" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Coding</h4>
+          <p class="card-text">I'm a professional software engineer. From Websites, Desktop Apps to Mobile Apps, I charge:</p>
+          <h4>40$ per hour</h4>
+        </div>
+      </div>
+      <div class="card col-md-2">
+        <img class="card-img-top" src="../assets/img/symbols/design_symbol_w_v2.png" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Animations</h4>
+          <p class="card-text">From 3D Animations, 2D Animations to simple Logo Animations or animated elements of any kind. For Animation Work I charge:</p>
+          <h4>30$ per hour</h4>
         </div>
       </div>
     </div>
-  </form>
+
+  </section>
 </main>

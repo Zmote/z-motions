@@ -1,13 +1,27 @@
 main{
   margin-top:2rem;
+  margin-bottom: 2rem;
 }
 
-#contact-form{
-  width:50%;
+.card{
+  padding:2rem;
 }
 
-@media (max-width:576px){
-  #contact-form{
-    width:80%;
-  }
+.card-block{
+  height:100%;
 }
+
+.card-img-top{
+  height:100px;
+  width:70px;
+  margin-bottom:1rem;
+}
+/*#contact-form{*/
+  /*width:50%;*/
+/*}*/
+
+/*@media (max-width:576px){*/
+  /*#contact-form{*/
+    /*width:80%;*/
+  /*}*/
+/*}*/
