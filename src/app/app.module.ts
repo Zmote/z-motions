@@ -20,6 +20,7 @@ import {RoutesContainer} from '../constants/RoutesContainer';
 // TODO: Check navbar scroll issue on some mobiles
 // TODO: Form nested components
 // TODO: fix access by URL errors (ie. base/3d directly doesn't work)
+// TODO: Add pages for Animation (videos)
 
 @NgModule({
   declarations: [
