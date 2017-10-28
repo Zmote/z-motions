@@ -15,6 +15,11 @@ import {CodeComponent} from '../code/code.component';
 import {RoutesContainer} from '../constants/RoutesContainer';
 
 // TODO: Adjust image sizes, make thumbnails for small images and load full size for modal
+// TODO: Break up code into more components and directives
+// TODO: Gather belonging elements into modules
+// TODO: Check navbar scroll issue on some mobiles
+// TODO: Form nested components
+
 @NgModule({
   declarations: [
     AppComponent,

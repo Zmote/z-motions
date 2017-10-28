@@ -3,6 +3,7 @@
  */
 
 import {Component} from '@angular/core';
+import {GalleryConstants} from '../constants/GalleryConstants';
 
 @Component({
   selector: 'app-slide-show',
@@ -10,4 +11,5 @@ import {Component} from '@angular/core';
   styleUrls: ['./slideshow.component.css']
 })
 export class SlideShowComponent {
+  baseHref = GalleryConstants.baseHref;
 }

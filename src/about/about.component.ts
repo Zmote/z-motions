@@ -3,6 +3,7 @@
  */
 
 import {Component} from '@angular/core';
+import {GalleryConstants} from '../constants/GalleryConstants';
 
 @Component({
   selector: 'app-about',
@@ -10,4 +11,5 @@ import {Component} from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
+  baseHref = GalleryConstants.baseHref;
 }

@@ -9,6 +9,7 @@ import {CodeComponent} from '../code/code.component';
 import {ContactComponent} from '../contact/contact.component';
 import {GalleryConstants} from './GalleryConstants';
 import {GalleryComponent} from '../gallery-container/gallery-container.component';
+import {Inject} from '@angular/core';
 
 export class RoutesContainer {
   static readonly appRoutes: Routes = [
