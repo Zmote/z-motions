@@ -3,10 +3,14 @@
   overflow:hidden;
 }
 
+.carousel-item img{
+  min-height:32rem;
+  width:auto !important;
+}
+
 .carousel-caption{
   margin-bottom:7rem !important;
   background-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.7) 25%, rgba(0,0,0,0.7) 65%, transparent 100%);
-  /*padding:1rem 10rem;*/
 }
 
 .carousel-caption > h3{

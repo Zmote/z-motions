@@ -1,0 +1,34 @@
+main{
+  margin-top:2rem;
+}
+
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 60px; overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width : 992px) {
+  .responsive-video {
+    position: relative;
+    padding:0;
+  }
+
+  .responsive-video iframe,
+  .responsive-video object,
+  .responsive-video embed {
+    position: relative;
+    width: 50vw;
+    height: 25vw;
+  }
+}
