@@ -19,6 +19,7 @@ import {RoutesContainer} from '../constants/RoutesContainer';
 // TODO: Gather belonging elements into modules
 // TODO: Check navbar scroll issue on some mobiles
 // TODO: Form nested components
+// TODO: fix access by URL errors (ie. base/3d directly doesn't work)
 
 @NgModule({
   declarations: [
