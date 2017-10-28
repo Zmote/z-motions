@@ -14,15 +14,13 @@ import {ContactComponent} from '../contact/contact.component';
 import {CodeComponent} from '../code/code.component';
 import {RoutesContainer} from '../constants/RoutesContainer';
 import {AnimationComponent} from '../animation/animation.component';
+import {NotFoundComponent} from '../notfound/notfound.component';
 
 // TODO: Adjust image sizes, make thumbnails for small images and load full size for modal
 // TODO: Break up code into more components and directives
 // TODO: Gather belonging elements into modules
 // TODO: Check navbar scroll issue on some mobiles
 // TODO: Form nested components
-// TODO: fix access by URL errors (ie. base/3d directly doesn't work)
-// TODO: Add pages for Animation (videos)
-// TODO: Add online presences page or to about
 
 @NgModule({
   declarations: [
@@ -36,7 +34,8 @@ import {AnimationComponent} from '../animation/animation.component';
     AboutComponent,
     ContactComponent,
     CodeComponent,
-    AnimationComponent
+    AnimationComponent,
+    NotFoundComponent
   ],
   imports: [
     RouterModule.forRoot(

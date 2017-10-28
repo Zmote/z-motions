@@ -10,11 +10,11 @@ import {ContactComponent} from '../contact/contact.component';
 import {GalleryConstants} from './GalleryConstants';
 import {GalleryComponent} from '../gallery-container/gallery-container.component';
 import {Inject} from '@angular/core';
-import {AnimationComponent} from "../animation/animation.component";
+import {AnimationComponent} from '../animation/animation.component';
+import {NotFoundComponent} from '../notfound/notfound.component';
 
 export class RoutesContainer {
   static readonly appRoutes: Routes = [
-    // {path: '**', redirectTo: '/'},
     {
       path: '3d',
       component: GalleryComponent,
@@ -55,6 +55,7 @@ export class RoutesContainer {
     {path: 'code', component: CodeComponent},
     {path: 'animation', component: AnimationComponent},
     {path: 'about', component: AboutComponent},
-    {path: '', component: AppHomeComponent}
+    {path: '', component: AppHomeComponent},
+    {path: '**', component: NotFoundComponent}
   ];
 }
