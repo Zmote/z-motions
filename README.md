@@ -1,5 +1,7 @@
 # ZMotions
 
+This webpage isn't finished, even if I've already deployed it already. I needed a portfolio up as soon as possible. Will optimize code and fix issues as time permits. Just a heads up. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 
 ## Development server
