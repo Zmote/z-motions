@@ -15,6 +15,8 @@ import {CodeComponent} from '../code/code.component';
 import {RoutesContainer} from '../constants/RoutesContainer';
 import {AnimationComponent} from '../animation/animation.component';
 import {NotFoundComponent} from '../notfound/notfound.component';
+import {APP_BASE_HREF} from '@angular/common';
+import {environment} from '../environments/environment';
 
 // TODO: Adjust image sizes, make thumbnails for small images and load full size for modal
 // TODO: Break up code into more components and directives
@@ -44,7 +46,12 @@ import {NotFoundComponent} from '../notfound/notfound.component';
     BrowserModule
   ],
   exports: [RouterModule],
-  providers: [],
+  providers: [
+    {
+      provide: APP_BASE_HREF,
+      useValue: environment.baseHref || '/'  // Fallback to '/' if not set
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

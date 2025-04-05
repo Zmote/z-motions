@@ -5,11 +5,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "publish": "npm run build && npx gh-pages -d dist"
+    "publish": "ng build --prod --base-href /z-motions && npx gh-pages -d dist"
   },
   "private": true,
   "engines": {
