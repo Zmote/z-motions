@@ -7,7 +7,7 @@
     "start": "ng serve",
     "build": "ng build --base-href=/",
     "build:prod": "ng build --prod --base-href=/",
-    "build:gh-pages": "ng build --prod --environment=prod:gh-pages --base-href=/z-motions",
+    "build:gh-pages": "ng build --prod --environment=prod:gh-pages --base-href=/z-motions/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
