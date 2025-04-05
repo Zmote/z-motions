@@ -12,6 +12,9 @@
     "publish": "npm run build && npx gh-pages -d dist"
   },
   "private": true,
+  "engines": {
+    "node": ">=8.0.0 <9.0.0"
+  },
   "dependencies": {
     "@angular/animations": "^4.2.4",
     "@angular/common": "^4.2.4",
