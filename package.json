@@ -11,7 +11,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "publish:gh-pages": "npm run build:gh-pages && npx gh-pages -d dist"
+    "publish:static": "npm run build:prod && npx gh-pages -d dist -b static",
+    "publish:gh-pages": "npm run build:gh-pages && npx gh-pages -d dist",
+    "publish": "npm run publish:static && npm run publish:gh-pages"
   },
   "private": true,
   "engines": {

@@ -29,8 +29,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 Run `npm run publish:gh-pages`
 
-This builds the project and deploys the build dist dir to a branch called gh-pages with the appropiate deployment URL.
-(in this case the repo name as prefix)
+## Publishing as a Static Site
+
+Run `npm run publish:static`
+
+This builds the project and deploys the build dist dir to a branch called static with the appropiate deployment URL.
+(in this case with root path "/")
 
 Access: https://zmote.github.io/z-motions
 
